@@ -3,9 +3,9 @@
 The goal of this project is to provide a collection of libraries and a wrapper to access the native file browser on all platforms compatible with Unity.
 
 Supported platforms: 
-- Standalone Windows: supported
-- Standalone Linux: Not Implemented
-- Standalone OSX: Not Implemented
+- Windows: Supported
+- Linux: Not Implemented
+- MacOS: Not Implemented
 - iOS: Not Implemented
 - Android: Not Implemented
 - UWP: Not Implemented
@@ -18,7 +18,7 @@ Supported configurations:
 
 Any help or suggestion is welcome.
 
-[Download Package]()
+[Download Package](https://github.com/Profy/Unity-UniversalFileBrowser/releases/download/v0.1.0/UniversalFileBrowser.v0.1.0.unitypackage)
 
 ## Features
 - File dialog (single select, multi select, filters)
