@@ -1,14 +1,12 @@
-#if UNITY_STANDALONE_OSX
+#if UNITY_IOS
 using System;
 using System.Collections.Generic;
-using System.Runtime.InteropServices;
-using System.Text;
 
 namespace UFB
 {
     internal sealed class UniversalFileBrowserIOS : IUniversalFileBrowser
     {
-#region File
+        #region File
         /// <summary>
         /// <inheritdoc/>
         /// </summary>
@@ -40,9 +38,9 @@ namespace UFB
         {
             throw new NotImplementedException();
         }
-#endregion
+        #endregion
 
-#region Folder
+        #region Folder
         /// <summary>
         /// <inheritdoc/>
         /// </summary>
@@ -74,9 +72,9 @@ namespace UFB
         {
             throw new NotImplementedException();
         }
-#endregion
+        #endregion
 
-#region Save
+        #region Save
         /// <summary>
         /// <inheritdoc/>
         /// </summary>
@@ -92,13 +90,13 @@ namespace UFB
         {
             throw new NotImplementedException();
         }
-#endregion
+        #endregion
 
-#region Process
+        #region Process
         /// <summary>
         /// <inheritdoc/>
         /// </summary>
-        public uint FileBrowser(string directory)
+        public uint Browser(string directory)
         {
             throw new NotImplementedException();
         }
@@ -106,7 +104,7 @@ namespace UFB
         /// <summary>
         /// <inheritdoc/>
         /// </summary>
-        public void OpenFile(string directory)
+        public void Open(string directory)
         {
             throw new NotImplementedException();
         }
@@ -118,7 +116,7 @@ namespace UFB
         {
             throw new NotImplementedException();
         }
-#endregion
+        #endregion
     }
 }
 #endif

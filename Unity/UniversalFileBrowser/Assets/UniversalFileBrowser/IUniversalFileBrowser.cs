@@ -105,13 +105,13 @@ namespace UFB
         /// </summary>
         /// <param name="directory">Root directory.</param>
         /// <returns>Process id.</returns>
-        public uint FileBrowser(string directory);
+        public uint Browser(string directory);
 
         /// <summary>
         /// Native open file.
         /// </summary>
         /// <param name="directory">Root directory.</param>
-        public void OpenFile(string directory);
+        public void Open(string directory);
 
         /// <summary>
         /// Native start process.

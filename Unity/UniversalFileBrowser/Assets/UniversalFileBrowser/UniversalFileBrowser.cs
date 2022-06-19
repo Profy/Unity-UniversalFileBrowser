@@ -122,7 +122,7 @@ namespace UFB
         /// <param name="paths">Returns <see langword="null"/> if the user cancelled the dialog. Otherwise returns the selected path.</param>
         public static void MultipleFileDialog(string title, string directory, Filter[] filters, Action<IReadOnlyList<string>> paths)
         {
-            _platform.MultipleFileDialog(title, directory, filters);
+            _platform.MultipleFileDialog(title, directory, filters, paths);
         }
         #endregion
 
@@ -228,18 +228,18 @@ namespace UFB
         /// </summary>
         /// <param name="directory">Root directory.</param>
         /// <returns>Process id.</returns>
-        public static uint FileBrowser(string directory)
+        public static uint Browser(string directory)
         {
-            return _platform.FileBrowser(directory);
+            return _platform.Browser(directory);
         }
 
         /// <summary>
         /// Native open file.
         /// </summary>
         /// <param name="directory">Root directory.</param>
-        public static void OpenFile(string directory)
+        public static void Open(string directory)
         {
-            _platform.OpenFile(directory);
+            _platform.Open(directory);
         }
 
         /// <summary>

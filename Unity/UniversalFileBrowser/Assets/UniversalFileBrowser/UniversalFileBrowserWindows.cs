@@ -96,7 +96,7 @@ namespace UFB
         /// <summary>
         /// <inheritdoc/>
         /// </summary>
-        public uint FileBrowser(string directory)
+        public uint Browser(string directory)
         {
             throw new NotImplementedException();
         }
@@ -104,7 +104,7 @@ namespace UFB
         /// <summary>
         /// <inheritdoc/>
         /// </summary>
-        public void OpenFile(string directory)
+        public void Open(string directory)
         {
             throw new NotImplementedException();
         }
